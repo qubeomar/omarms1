@@ -1,0 +1,8 @@
+applications:
+- name: omarms1
+  path: ./target/omarms1.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  random-route: true
